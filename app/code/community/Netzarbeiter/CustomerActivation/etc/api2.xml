@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <api2>
+        <resources>
+            <customer translate="title" module="api2">
+                <attributes translate="customer_activated" module="api2">
+                    <customer_activated>Customer Activated</customer_activated>
+                </attributes>
+                <exclude_attributes>
+                    <customer>
+                        <write>
+                            <customer_activated>1</customer_activated>
+                        </write>
+                    </customer>
+                </exclude_attributes>
+            </customer>
+        </resources>
+    </api2>
+</config>
